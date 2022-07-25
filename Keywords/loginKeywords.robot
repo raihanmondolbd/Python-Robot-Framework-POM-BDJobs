@@ -1,11 +1,13 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library  ../utils/pythonfile.py
 Variables   ../Pages/LocatorsPage.py
 
 *** Keywords ***
 Open my browser
-    [Arguments]     ${Siteurl}      ${Browser}
-    Open Browser    ${Siteurl}      ${Browser}
+    [Arguments]  ${Siteurl}  ${Browser}
+    ${driver_path}=   pythonfile.Get Chromedriver Path  ${Browser}
+    Open Browser  ${Siteurl}  ${Browser}  executable_path=${driver_path}
     Sleep    5
     Maximize Browser Window
 
@@ -30,5 +32,7 @@ Verify Succesfull login
 
 Close my browser
     Close All Browsers
+
+
 
 

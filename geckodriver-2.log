@@ -1,0 +1,15 @@
+1658770045920	geckodriver	INFO	Listening on 127.0.0.1:6297
+1658770048989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAIHAN~1\\AppData\\Local\\Temp\\rust_mozprofile2vDfB4"
+1658770049548	Marionette	INFO	Marionette enabled
+1658770049557	Marionette	INFO	Listening on port 6307
+WebDriver BiDi listening on ws://localhost:6298
+Read port: 6307
+1658770049753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAIHAN~1\\AppData\\Local\\Temp\\rust_mozprofile2vDfB4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6298/devtools/browser/0ecd05a0-dc11-483e-a2d4-989179564517
+1658770067892	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658770068536	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://c91b9b4dd182934af0da444f2cd7b6ba.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html, line 1: ReferenceError: googqscp is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1406 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5890 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658770089253	Marionette	INFO	Stopped listening on port 6307

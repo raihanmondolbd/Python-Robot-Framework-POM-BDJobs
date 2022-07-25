@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.10 on win32)" generated="20220725 22:55:43.096" rpa="false" schemaversion="2">
+<suite id="s1" name="test BarishalJobs" source="F:\Automation\Robot-Framework-BDJobs\TestCases\test_BarishalJobs.robot">
+<test id="s1-t1" name="MyBDJobs_Test">
+<kw name="Open my browser" library="loginKeywords">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Siteurl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220725 22:55:43.455" level="INFO">Opening browser 'chrome' to base url 'https://www.bdjobs.com/'.</msg>
+<msg timestamp="20220725 22:55:47.042" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220725 22:55:47.042" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00FBB8F3+2406643]
+	Ordinal0 [0x00F4AF31+1945393]
+	Ordinal0 [0x00E3C748+837448]
+	Ordinal0 [0x00E5C8B3+968883]
+	Ordinal0 [0x00E584BA+951482]
+	Ordinal0 [0x00E55D71+941425]
+	Ordinal0 [0x00E88EE0+1150688]
+	Ordinal0 [0x00E88B3A+1149754]
+	Ordinal0 [0x00E84096+1130646]
+	Ordinal0 [0x00E5E636+976438]
+	Ordinal0 [0x00E5F546+980294]
+	GetHandleVerifier [0x01229612+2498066]
+	GetHandleVerifier [0x0121C920+2445600]
+	GetHandleVerifier [0x01054F2A+579370]
+	GetHandleVerifier [0x01053D36+574774]
+	Ordinal0 [0x00F51C0B+1973259]
+	Ordinal0 [0x00F56688+1992328]
+	Ordinal0 [0x00F56775+1992565]
+	Ordinal0 [0x00F5F8D1+2029777]
+	BaseThreadInitThunk [0x766CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774A7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x774A7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220725 22:55:43.455" endtime="20220725 22:55:47.042"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 22:55:47.042" endtime="20220725 22:55:47.042"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220725 22:55:47.042" endtime="20220725 22:55:47.042"/>
+</kw>
+<status status="FAIL" starttime="20220725 22:55:43.455" endtime="20220725 22:55:47.042"/>
+</kw>
+<kw name="Show_Barishal_Jobs" library="divisionalJobsKeywords">
+<status status="NOT RUN" starttime="20220725 22:55:47.042" endtime="20220725 22:55:47.042"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 22:55:47.042" endtime="20220725 22:55:47.042"/>
+</kw>
+<kw name="Close my browser" library="loginKeywords">
+<status status="NOT RUN" starttime="20220725 22:55:47.042" endtime="20220725 22:55:47.042"/>
+</kw>
+<status status="FAIL" starttime="20220725 22:55:43.455" endtime="20220725 22:55:47.042">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00FBB8F3+2406643]
+	Ordinal0 [0x00F4AF31+1945393]
+	Ordinal0 [0x00E3C748+837448]
+	Ordinal0 [0x00E5C8B3+968883]
+	Ordinal0 [0x00E584BA+951482]
+	Ordinal0 [0x00E55D71+941425]
+	Ordinal0 [0x00E88EE0+1150688]
+	Ordinal0 [0x00E88B3A+1149754]
+	Ordinal0 [0x00E84096+1130646]
+	Ordinal0 [0x00E5E636+976438]
+	Ordinal0 [0x00E5F546+980294]
+	GetHandleVerifier [0x01229612+2498066]
+	GetHandleVerifier [0x0121C920+2445600]
+	GetHandleVerifier [0x01054F2A+579370]
+	GetHandleVerifier [0x01053D36+574774]
+	Ordinal0 [0x00F51C0B+1973259]
+	Ordinal0 [0x00F56688+1992328]
+	Ordinal0 [0x00F56775+1992565]
+	Ordinal0 [0x00F5F8D1+2029777]
+	BaseThreadInitThunk [0x766CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774A7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x774A7A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220725 22:55:43.096" endtime="20220725 22:55:47.042"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="test BarishalJobs">test BarishalJobs</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
