@@ -7,14 +7,18 @@
       ```bash  
        pip install -r requirements.txt
       `````
-Run Test Case:
+Run Single Test Case:
 ```bash
 robot .\TestCases\test_DhakaJobs.robot
 ```
-
+Run Suite:
+```bash
+robot .\TestCases
+```
+Run Test Cases To Generate Allure Result
 ```bash
 $ pip install allure-robotframework
-$ robot --listener allure_robotframework ./my_robot_test
+$ robot --listener allure_robotframework .\TestCases\test_DhakaJobs.robot
 ```
 Multithread with parallel Run
 A parallel executor for Robot Framework tests. With Pabot you can split one execution into multiple and save test execution time.
